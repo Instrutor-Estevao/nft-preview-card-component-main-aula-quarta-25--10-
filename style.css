@@ -12,10 +12,31 @@ body{
     background-color: hsl(216, 50%, 16%);
     height: 100%;
     width:25em ;
-    margin-left: 35em;
-    margin-right: 35em;
-    margin-top: 5vh;
+    margin: 5vh auto 0; /* Centraliza horizontalmente e define uma margem superior de 5vh */
+  
+   
 }
+@media screen and (max-width: 720px) {
+    .cartao{
+        background-color: hsl(216, 50%, 16%);
+        margin: 5vh auto 0; /* Centraliza horizontalmente e define uma margem superior de 5vh */
+        width: 18em;
+        height: auto;
+    }
+        .clock , #re,#lo  {
+            right:7em ; /* Ajuste a margem esquerda em relação ao contêiner pai (20% do seu tamanho) */
+             position: relative;
+            padding: 5px;
+            bottom: 0.4em;
+             /* Ajuste a posição em relação ao contêiner pai (5% do seu tamanho) */
+         }
+         #lo{
+            position: relative;
+            bottom: 0.8em;
+         }
+       
+    }
+
 #equilibrium, .cartao{
     border-radius: 15px;
 }
