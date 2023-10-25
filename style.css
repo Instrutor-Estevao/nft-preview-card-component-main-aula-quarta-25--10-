@@ -1,0 +1,81 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color:hsl(217, 54%, 11%) ;
+}
+
+.cartao{
+    background-color: hsl(216, 50%, 16%);
+    height: 100%;
+    width:25vw ;
+    margin-left: 35vw ;
+    margin-right: 35vw;
+    margin-top: 5vh;
+}
+#equilibrium, .cartao{
+    border-radius: 15px;
+}
+#equilibrium{
+    border-radius: 25px;
+    width: 100%;
+    padding: 15px;
+   
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    font-size: 18px;
+}
+p{
+    color: lightgray;
+    opacity: 0.5;
+    margin: 5px;
+    font-size: 18px;
+
+}
+.item{
+    display: inline-block;
+}
+#avatar{
+    width: 2vw;
+    border-radius: 100%;
+    border: white 1px solid;
+    position: relative;
+    bottom: 1vh;
+}
+.texto{
+    padding-left: 1vw;
+    padding-right: 1vw;
+
+}
+.clock{
+    position: relative;
+    left: 14vw;
+    bottom: 5vh;
+}
+.linha{
+    width: 100%;
+    height: 0.2vh;
+    position: relative;
+    background-color: hsl(215, 32%, 27%);
+    bottom: 4vh;
+}
+#eth{
+    color: hsl(178, 100%, 50%) ;
+    opacity: 5;
+    fo
+}
+#txt-avatar{
+    position: relative;
+    bottom: 2vh;
+}
+span{
+    opacity: 10;
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    bottom: 2.2vh;
+}
